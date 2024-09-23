@@ -1,0 +1,108 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 80px;
+    padding: 0;
+    background-image: url("photo.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(141, 191, 147);
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #cef7f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(98, 95, 95, 0.1), rgba(135, 137, 135, 0.2),
+      rgba(61, 61, 62, 0.3);
+    padding: 25px;
+    backdrop-filter: blur(5px);
+  }
+  
+  fieldset {
+    border: 2px solid #190372;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #dbf7fa;
+  }
+  
+  legend {
+    font-weight: bold;
+    background-color: #a9e7bb;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #0b024f;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0db149;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #e2f41b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8decb3;
+    border: 2px solid #f36e16;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #94ee9f;
+  }
+  
+  #resumeOutput {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #91deb3;
+    border-radius: 10px;
+    background-color: #82d6f0;
+    box-shadow: 0 4px 6px rgba(129, 242, 142, 0.4);
+  }
+  
+  #resumeOutput h2 {
+    color: #0b024f;
+    font-size: 24px;
+  }
+  
+  .profilePicture {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #a9eebd;
+    box-shadow: 0 4px 6px rgba(166, 224, 173, 0.5);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
